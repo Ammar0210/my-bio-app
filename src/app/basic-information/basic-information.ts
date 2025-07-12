@@ -2,11 +2,13 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-basic-information',
-  imports: [],
   standalone: true,
   templateUrl: './basic-information.html',
-  styleUrl: './basic-information.css'
+  styleUrls: ['./basic-information.css']
 })
 export class BasicInformation {
+
+  ngOnInit(): void {
+  }
 
 }

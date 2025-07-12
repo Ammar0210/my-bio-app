@@ -1,65 +1,112 @@
 .bio-card {
-  max-width: 600px;
+  max-width: 650px;
   margin: 60px auto;
-  padding: 30px;
-  background: #ffffff;
+  padding: 35px 30px;
+  background: #1e1e1e;
   border-radius: 20px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
   text-align: center;
-  color: #333;
-}
-
-.profile-header {
-  margin-bottom: 20px;
+  color: #f0f0f0;
 }
 
 .profile-pic {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
+  border: 3px solid #444;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin: 0;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 .title {
-  font-size: 1.1rem;
-  color: #777;
-  margin-top: 4px;
-}
-
-.bio-content {
-  text-align: left;
-  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #bbb;
+  margin-top: 6px;
 }
 
 .bio-content p {
   margin: 10px 0;
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: 1.6;
 }
 
 .bio-content strong {
-  color: #555;
+  color: #ccc;
 }
 
-.social-links {
-  margin-top: 30px;
+.bio-content a {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+.bio-content a:hover {
+  color: #80caff;
+  text-decoration: underline;
+}
+
+.skills-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #eee;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills-list li {
+  background-color: #2c2c2c;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid #444;
 }
 
 .social-links a {
-  margin: 0 10px;
-  color: #0066cc;
-  text-decoration: none;
+  display: inline-block;
+  margin: 6px 10px;
+  color: #4da6ff;
   font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .social-links a:hover {
+  color: #80caff;
   text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 30px 0;
+}
+
+.bio-card {
+  /* your existing styles here */
+  animation: fadeInUp 0.8s ease-in-out both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
