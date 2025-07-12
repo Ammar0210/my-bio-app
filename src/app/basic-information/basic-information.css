@@ -1,0 +1,65 @@
+.bio-card {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.title {
+  font-size: 1.1rem;
+  color: #777;
+  margin-top: 4px;
+}
+
+.bio-content {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.bio-content p {
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.bio-content strong {
+  color: #555;
+}
+
+.social-links {
+  margin-top: 30px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
