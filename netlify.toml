@@ -1,9 +1,3 @@
 [build]
 command = "ng build --configuration production"
 publish = "dist/my-bio-app"
-
-[[plugins]]
-package = "@netlify/angular-runtime"
-# Disable this plugin explicitly
-[plugins.inputs]
-disabled = true
