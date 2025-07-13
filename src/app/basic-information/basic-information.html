@@ -16,6 +16,15 @@
   <hr class="divider" />
 
   <div class="skills-section">
+
+    <!-- Template -->
+    <div class="fun-fact-container">
+      <button class="fun-fact-button" (click)="showFunFact = !showFunFact">🎉 Fun Fact</button>
+      <p *ngIf="showFunFact" class="fun-fact-text">
+        I once built a mini game engine in just 48 hours for a hackathon — and it worked!
+      </p>
+    </div>
+
     <h3>🛠️ Tech Stack</h3>
     <ul class="skills-list">
       <li>Angular</li>
